@@ -288,7 +288,7 @@ ui <- fluidPage(
              fluidPage(
                card(
                  full_screen = FALSE,
-                 card_header("How to Use This Tool"),
+                 card_header("How to Use"),
                  p("Given a set of input genes, this tool returns the ERC values for all pairs 
                    and returns an empirical p-value, reflecting whether the mean ERC across all 
                    pairs is higher than random sets of the same size. Results can be viewed and 
@@ -341,7 +341,7 @@ ui <- fluidPage(
     tabPanel("Single gene", icon = icon("star"),
              fluidPage(
                card(
-                 card_header("How to Use This Tool"),
+                 card_header("How to Use"),
                  p("This tool takes a single gene as input and identifies other genes with the highest evolutionary rate covariation (ERC) with it across the genome. 
                    ERC measures the correlation between the evolutionary rates of two proteins across a phylogeny. 
                    High ERC values suggest that the two genes may share a function, act in the same pathway, or participate in the same protein complex."),
@@ -375,7 +375,7 @@ ui <- fluidPage(
              fluidPage(
                card(
                  full_screen = TRUE,
-                 card_header("How to Use This Tool"),
+                 card_header("How to Use"),
                  p("This tool reports 1:1 orthologs for a gene across 22 ", tags$i("Plasmodium"), " species. 
                    Orthologs are genes in different species that evolved from a common ancestral gene and 
                    usually retain the same function. Identifying 1:1 orthologs is useful for comparing 
