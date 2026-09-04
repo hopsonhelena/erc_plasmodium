@@ -1,9 +1,6 @@
 # ERC Plasmodium
 
-ERC Plasmodium is an R Shiny application for exploring evolutionary rate
-covariation (ERC) among proteins from 22 *Plasmodium* species. The dataset
-contains 4,360 one-to-one ortholog groups and supports three complementary
-analyses:
+This R Shiny application accompanies [Hopson et al. (2026)](https://doi.org/10.1093/gbe/evag203) and enables exploration of evolutionary rate covariation (ERC) across the genomes of 22 *Plasmodium* species: 
 
 - **Group of genes:** inspect pairwise ERC values, visualize a clustered
   heatmap, and test whether the group's mean ERC is greater than that of
@@ -15,7 +12,7 @@ analyses:
 
 ## Data
 
-The data are on Dryad:
+The source data are avaliable on Dryad:
 [doi:10.5061/dryad.cfxpnvxmw](https://doi.org/10.5061/dryad.cfxpnvxmw).
 
 See [`data/README.md`](data/README.md) for expected inputs.
